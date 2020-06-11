@@ -12,8 +12,7 @@
   h1 {
     font-size: 2.75em;
     margin: 0 0 0.25em 0; 
-  }
-  
+  }  
 
   figure {
     margin: 0 0 1em 0;
@@ -26,11 +25,7 @@
     margin: 0 0 1em 0;
     border-radius: 6px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.5);
-  }
-
-  p {
-    margin: 1em auto;
-  }
+  }  
 
   @media (min-width: 480px) {
     h1 {
@@ -43,8 +38,7 @@
   <title>Sapper project template</title>
 </svelte:head>
 
-<h1>Duckies Rule, OK?</h1>
-
+<h1>Happy Duckies</h1>
 
 <figure>
   <img alt="Shelves of plastic bath duckies" src="./images/duckies.jpg" />

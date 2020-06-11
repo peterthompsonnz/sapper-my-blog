@@ -1,19 +1,18 @@
 <style>
-	footer {		
+	footer {
 		width: 100%;
-	}
-	div {
+		position: fixed;
+		bottom: 0;
+		left: 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-	}
-	span {
-		display: inline-block;
-		border-top: 1px solid #666;
-		padding: 10px 0 20px 0;
-	}
+		background-color: #fafafa;
+		border-top: 1px solid rgba(220,20,60,0.25);
+		padding: 10px 0;
+	}	
 </style>
 
 <footer>
-	<div><span>© PeterT 2020 - Built using Svelte/Sapper</span></div>
+	<span>© PeterT 2020 - Built using <a href="https://sapper.svelte.dev/">Svelte/Sapper</a></span>
 </footer>

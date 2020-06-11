@@ -15,7 +15,7 @@
   }
 </script>
 
-<script>
+<script>  
   export let post;
 </script>
 
@@ -28,8 +28,12 @@
 		so we have to use the :global(...) modifier to target
 		all elements inside .content
 	*/
+  .content :global(article) {
+    padding-bottom: 80px;
+  }
+  
   .content :global(p:last-of-type) {
-    padding-bottom: 20px;
+    margin-bottom: 40px;
   }
   
   .content :global(h2) {

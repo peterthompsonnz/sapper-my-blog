@@ -1,13 +1,17 @@
 <script context="module">
 	export function preload({ params, query }) {
 		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-			return { posts };
+			// Sort posts in descending date order
+			const sortedPosts = posts.sort((a, b) => {  
+				return new Date(b.date) - new Date(a.date)
+			});
+			return { sortedPosts };
 		});
 	}
 </script>
 
 <script>
-	export let posts;
+	export let sortedPosts;
 </script>
 
 <style>
@@ -24,11 +28,7 @@
 <h1>Recent posts</h1>
 
 <ul>
-	{#each posts as post}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->				
+	{#each sortedPosts as post}		
 		<li><a rel='prefetch' href='blog/{post.slug}'>{post.date}: {post.title}</a></li>
 	{/each}
 </ul>

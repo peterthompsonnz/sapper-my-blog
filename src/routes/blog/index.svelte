@@ -3,7 +3,7 @@
 		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
 			// Sort posts in descending date order
 			const sortedPosts = posts.sort((a, b) => {  
-				return new Date(b.date) - new Date(a.date)
+				return new Date(b.date) - new Date(a.date);
 			});
 			return { sortedPosts };
 		});

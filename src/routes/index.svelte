@@ -35,7 +35,7 @@
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>PeterT's Blog</title>
 </svelte:head>
 
 <h1>Happy Duckies</h1>

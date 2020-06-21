@@ -15,7 +15,7 @@
   }  
 
   figure {
-    margin: 0 0 1em 0;
+    margin: 0 0 4em 0;
   }
 
   img {

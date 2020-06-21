@@ -14,5 +14,5 @@
 </style>
 
 <footer>
-	<span>© PeterT 2020 - Built using <a href="https://sapper.svelte.dev/">Svelte/Sapper</a></span>
+	<span>©2020 - Built using <a href="https://sapper.svelte.dev/">Svelte/Sapper</a></span>
 </footer>

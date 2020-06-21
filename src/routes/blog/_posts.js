@@ -57,6 +57,21 @@ const posts = [
 		</ul>
 		</article>
 			`
+	},
+	{
+		title: 'Click the banana game',
+		slug: 'click-the-banana-game',
+		date: '2020/06/21',
+		html: `
+			<article>
+			<img alt="Screenshot of click the banana game" src="./banana-game/screenshot.png">
+			<p>This game is written using vanilla JavaScript and the HTML5 canvas and some of its methods. Bananas fall from the top of the playing area. Every time the player clicks on one they: get a point, the banana's position is reset to a random x position at the top of the canvas, and its falling speed is increased slightly. Also, after every fifth click a new banana is added to the game.</p><p>The current score is displayed at top left, along with the 'best ever' score. This is stored in the browser's local storage. The player has three lives to start with. The current number is indicated by the number of images of a monkey at the top right of the canvas. As a final touch the standard cursor is replaced by an image of a small monkey (a smaller version of the one used to show lives).</p>
+			<ul>
+			<li><a href="https://repl.it/@malvoliothegood/Click-the-banana-game#index.html">Link to Repl</a></li>
+			<li><a href="./banana-game/banana-game.zip">Zipped up game files (11.3KiB)</a></li>
+		</ul>		
+		</article>
+			`
 	}	
 ];
 

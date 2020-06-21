@@ -1,5 +1,5 @@
 <style>
-  h1, figure, p {
+  h1, figure {
     text-align: center;
     margin: 0 auto;
   }
@@ -35,7 +35,7 @@
 </style>
 
 <svelte:head>
-  <title>PeterT's Blog</title>
+  <title>Happy Duckies</title>
 </svelte:head>
 
 <h1>Happy Duckies</h1>

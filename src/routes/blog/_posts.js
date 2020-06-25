@@ -72,7 +72,22 @@ const posts = [
 		</ul>		
 		</article>
 			`
-	}	
+	},
+	{
+		title: 'Collatz conjecture app',
+		slug: 'collatz-conjecture-app',
+		date: '2020/06/26',
+		html: `
+			<article>
+			<img alt="Screenshot of Collatz conjecture app" src="./collatz-conjecture/screenshot.png">
+			<p>This is a forked and heavily modified version of an app that help was requested for on Repl.it. It deals with the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>.</p>
+			<ul>
+			<li><a href="https://repl.it/@malvoliothegood/Collatx-conjucture#index.html">Link to Repl</a></li>
+			<li><a href="./collatz-conjecture/collatz-conjecture.zip">Zipped up app files (2.2KiB)</a></li>
+		</ul>		
+		</article>
+			`
+	}
 ];
 
 posts.forEach(post => {

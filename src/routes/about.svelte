@@ -8,6 +8,6 @@
 
 <h2>About me</h2>
 
-<p>My Net nom de plume varies. On repl.it is <strong>Malvoliothegood</strong>. Malvolio was a Shakespearean character. Of course Malvolio is not my real name, but you have to be careful about what information about yourself you publish on the web.</p>
+<p>My Web nom de plume varies. On <strong>repl.it</strong> it is <strong>Malvoliothegood</strong>. Malvolio was a minor Shakespearean character. Of course Malvolio is not my real name, but it's best to be careful about what information about yourself you publish on the web.</p>
 
 <p>Programming is a passion of mine. I have been practising it since the late 1990s. The first languages I learned where C and C++. This was during the first year of my Bachelor of Information Technology degree. In my spare time I taught myself JavaScript and HTML so I could make my daughter games with some sort of a GUI - C and C++ don't have much of a one. In later years of my degree I learned: Java, VBA, PHP and SQL. Currently I mainly program using JavaScript and also dabble in C, C++, Java and Python.</p>

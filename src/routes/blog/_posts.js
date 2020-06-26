@@ -76,7 +76,7 @@ const posts = [
 	{
 		title: 'Collatz conjecture app',
 		slug: 'collatz-conjecture-app',
-		date: '2020/06/26',
+		date: '2020/06/25',
 		html: `
 			<article>
 			<img alt="Screenshot of Collatz conjecture app" src="./collatz-conjecture/screenshot.png">
@@ -84,6 +84,21 @@ const posts = [
 			<ul>
 			<li><a href="https://repl.it/@malvoliothegood/Collatx-conjucture#index.html">Link to Repl</a></li>
 			<li><a href="./collatz-conjecture/collatz-conjecture.zip">Zipped up app files (2.2KiB)</a></li>
+		</ul>		
+		</article>
+			`
+	},
+	{
+		title: 'Collatz conjecture app: version 2',
+		slug: 'collatz-conjecture-app-v2',
+		date: '2020/06/26',
+		html: `
+			<article>			
+			<p>This is an improved version of the Collatz conjecture app mentioned in the last post. The output of the number sequence is better formatted (there is a comma and a space between each number) and there is a 100 millisecond delay between each iteration of the sequence generating algorithm. This adds interest. A link to a video of the running app is included below.</p>
+			<ul>
+			<li><a href="https://repl.it/@malvoliothegood/Collatz-conjecture-v2">Link to Repl</a></li>
+			<li><a href="./collatz-conjecture/collatz-conjecture-v2.zip">Zipped up app files (2.3KiB)</a></li>
+			<li><a href="./collatz-conjecture/collatz-conjecture.mp4">Short video of the app in action</a></li>
 		</ul>		
 		</article>
 			`

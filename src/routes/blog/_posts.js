@@ -44,13 +44,13 @@ const posts = [
 			`
 	},
 	{
-		title: 'Bug Fountain Tutorial: version 2',
-		slug: 'bug-fountain-tutorial-v2',
+		title: 'Bug Fountain: version 2',
+		slug: 'bug-fountain-v2',
 		date: '2020/06/04',
 		html: `
 			<article>
 			<img alt="Screenshot of bug fountain canvas" src="./bugfountain/bugfountain.jpg">
-			<p>Version 2 of the bug fountain program mentioned in the last post is available on [replit](https://repl.it). This version uses different sized bugs, and each bug moves at a speed relative to its size, with smaller ones moving faster than bigger ones.</p>
+			<p>Version 2 of the bug fountain program mentioned in the last post is available on <a href="https://repl.it">replit</a>. This version uses different sized bugs, and each bug moves at a speed relative to its size, with smaller ones moving faster than bigger ones.</p>
 		<ul>
 			<li><a href="https://repl.it/@malvoliothegood/bugfountain-v2#script.js">Link to Bugfountain V2 Repl</a></li>
 			<li><a href="./bugfountain/bugfountain.mp4">Short video</a></li>

@@ -102,6 +102,20 @@ const posts = [
 		</ul>		
 		</article>
 			`
+	},
+	{
+		title: 'Collatz conjecture app: version 2b',
+		slug: 'collatz-conjecture-app-v2b',
+		date: '2020/06/27',
+		html: `
+			<article>			
+			<p>It's amazing how you can think you have ironed out all bugs only to find one hiding in plain sight. This is the case with V2 of the Collatz conjecture app. It accepts negative numbers! Version V2b does not. It also uses a textarea to display the results. As the height and width of the textarea is set no rejigging of the page layout occurs. This looks better.</p>
+			<ul>
+			<li><a href="https://repl.it/@malvoliothegood/Collatz-conjecture-v2b">Link to Repl</a></li>
+			<li><a href="./collatz-conjecture/collatz-conjecture-v2b.zip">Zipped up app files (2.3KiB)</a></li>
+			</ul>		
+		</article>
+			`
 	}
 ];
 

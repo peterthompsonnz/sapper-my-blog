@@ -116,6 +116,21 @@ const posts = [
 			</ul>		
 		</article>
 			`
+	},
+	{
+		title: "B & C 'Hello Worlds'",
+		slug: 'hello-world',
+		date: '2020/06/29',
+		html: `
+			<article>
+			<img alt="hello, world C and B code" src="./hello-world/screenshot.png">
+			<p>Above is a screenshot of some C and B language code that prints out <strong>hello, world</strong>. Note the lowercase wording, the comma and the dates. Modern versions of the text part of the program often capitalise the two words and miss out the comma. Below are links to a Wikipedia article on the history of the 'Hello World' programs along with a link to a downloadable copy of the original C language book.</p>
+			<ul>
+			<li><a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Wikipedia article</a></li>
+			<li><a href="./hello-world/The C Programming Language Ritchie & Kernighan.pdf">The C Programming Language by Kernighan and Richie (PDF, 1.2Mib)</a></li>
+			</ul>		
+		</article>
+			`
 	}
 ];
 

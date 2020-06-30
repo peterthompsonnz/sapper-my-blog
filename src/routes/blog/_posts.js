@@ -131,6 +131,20 @@ const posts = [
 			</ul>		
 		</article>
 			`
+	},
+  {
+		title: "Loading images using promises",
+		slug: 'loading-images-using-promises',
+		date: '2020/06/30',
+		html: `
+			<article>
+			<img alt="Loading images using promises code screenshot" src="./loading-images-using-promises/screenshot.png">
+			<p>Loading a number of images for a web page can be problematic if the image loading has to occur before other code runs. The above JS code shows how it can be done. The attached zip file contains the web page and its associated code.</p>
+			<ul>			
+			<li><a href="./loading-images-using-promises/loading-images-using-promises.zip">App code (zip, 1.2KiB)</a></li>
+			</ul>		
+		</article>
+			`
 	}
 ];
 

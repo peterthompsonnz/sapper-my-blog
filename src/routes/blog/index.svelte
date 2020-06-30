@@ -19,6 +19,12 @@
 		margin: 0 0 1em 0;
 		line-height: 1.5;
 	}
+	li {
+		margin-bottom: 15px;
+	}
+	li:last-of-type {
+		margin-bottom: 0;
+	}
 </style>
 
 <svelte:head>

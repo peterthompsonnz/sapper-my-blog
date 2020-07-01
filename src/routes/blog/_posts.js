@@ -135,14 +135,17 @@ const posts = [
   {
 		title: "Loading images using promises",
 		slug: 'loading-images-using-promises',
-		date: '2020/06/30',
+		date: '2020/06/31',
 		html: `
 			<article>
+      <img alt="Loading images using promises results page" src="./loading-images-using-promises/screenshot.jpg">
 			<img alt="Loading images using promises code screenshot" src="./loading-images-using-promises/screenshot.png">
-			<p>Loading a number of images for a web page can be problematic if the image loading has to occur before other code runs. The above JS code shows how it can be done. The attached zip file contains the web page and its associated code.</p>
-			<ul>			
+			<p>Loading a number of images for a web page can be problematic if the image loading has to occur before other code runs. The above JS code shows how it can be done using Promises (Promise and Promise.all). The images will not be added to the page until all images have been fetched. The attached zip file contains the web page and its associated code.</p>
+			<ul>
+      <li><a href="https://loadingimageusingpromises.netlify.app/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
 			<li><a href="./loading-images-using-promises/loading-images-using-promises.zip">App code (zip, 1.2KiB)</a></li>
-			</ul>		
+			</ul>
+      
 		</article>
 			`
 	}

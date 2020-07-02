@@ -150,6 +150,38 @@ const posts = [
       
 		</article>
 			`
+	},
+  {
+		title: "Hangman animal game using Snowpack",
+		slug: 'hangman-game-using-snowpack',
+		date: '2020/07/02',
+		html: `
+			<article>
+      <img alt="screenshot of hangman game in action" src="./snowpack-hangman-game/screenshot.png">			
+      <p>This simple game was built using Svelte the framework and the <a href="https://www.snowpack.dev/">Snowpack build chain tool</a>. Snowpack is unique as it does not bundle on every file change, save and rebuild. This means that the effects of changes are seen very quickly in a running instance of an app. See the quoted text below from the Snowpack homepage for more information.</p>
+      <p>To replicate the hangman development project folder and file structure:</p>
+      <ol>
+      <li>Download the zip file attached to this post</li>
+      <li>Unzip it in an appropriate place in your system's file structure</li>
+      <li>Open a terminal within the root level of the project's file structure</li>
+      <li>Install dependencies by running <code>npm install</code> in the terminal</li>
+      <li>Then run <code>npm run start</code> to start the app</li>
+      <li>A webserver will start automatically and the default browser will start and load the app's main page at <code>localhost:8080</code></li>
+      <li>Edit the <strong>Svelte</strong> files as you see fit. Hot reloading will keep the running app up to date</li>
+      <li>To build the app run <code>npm run build</code>. The built files will be in the <code>build</code> folder</li>
+      </ol>
+      <blockquote>
+      <h2>What is Snowpack?</h2>
+      <p>Snowpack is a modern, lightweight toolchain for web application development. Traditional dev bundlers like webpack or Parcel need to rebuild & rebundle entire chunks of your application every time you save a single file. This introduces lag between changing a file and seeing those changes reflected in the browser, sometimes as slow as several seconds.</p>
+      <p>Snowpack solves this problem by serving your application unbundled in development. Any time you change a file, Snowpack never rebuilds more than a single file. There’s no bundling to speak of, just a few milliseconds of single-file rebuilding and then an instant update in the browser via HMR. We call this new approach O(1) Build Tooling. </p>
+      </blockquote>
+			<ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/hangman-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
+			<li><a href="./snowpack-hangman-game/snowpack-hangman-game.zip">App development project folders and files  (zip, 221KiB)</a></li>
+			</ul>
+      
+		</article>
+			`
 	}
 ];
 

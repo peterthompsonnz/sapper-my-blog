@@ -24,10 +24,16 @@ a, a:link {
 code {
 	font-family: menlo, inconsolata, monospace;
 	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
+	color: #222;
+	background-color: #dadada;
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
+}
+
+blockquote {
+	font-style: italic;
+	border-left: 8px solid rgba(220,20,60, 0.7);
+	padding-left: 20px;
 }
 
 @media (min-width: 400px) {

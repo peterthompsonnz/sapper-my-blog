@@ -49,7 +49,7 @@
     overflow-x: auto;
   }
 
-  .content :global(pre) :global(code) {
+  .content :global(pre) {
     background-color: transparent;
     padding: 0;
   }

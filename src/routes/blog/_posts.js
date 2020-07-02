@@ -17,11 +17,13 @@ const posts = [
 		date: '2020/05/24',
 		html: `
 			<article>
-			<img alt="Screenshot of password generator app version 2" src="./password-generator/password-generator-v2.png">
-			<p><a href="https://repl.it/@malvoliothegood/password-generator">Password Generator on repl.it</a></p>
+			<img alt="Screenshot of password generator app version 2" src="./password-generator/password-generator-v2.png">			
 			<p>Find attached a zip file that contains another version of the password generator app that was mentioned in the last post. It does not have a 'Copy to Clipboard' button, but generated passwords are displayed in a list.</p>
 			<p>I neglected to mention in yesterday's post that two additional JS files are included in the app to implement service worker caching. This makes the app a bit more speedy after the first use as the text file that contains the words that are used to make up the generated password - it is the UNIX text file - contains 45,000+ words and weighs in at a hefty 400KiB.</p>
-		<p><a href="./password-generator/password-generator-v2.zip">Password generator (151KiB)</a></p>
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/password-generator/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+      <li><a href="./password-generator/password-generator-v2.zip">Password generator (151KiB)</a></li>
+      </ul>		
 		</article>
 			`
 	},
@@ -37,7 +39,7 @@ const posts = [
 			<p>I negligently deleted the repl on [replit](https://repl.it) that contained the starter files. Today I fixed this by creating a new repl - see links below:</p>
 
 		<ul>
-			<li><a href="https://repl.it/@malvoliothegood/bugfountain-current#index.html">Link to Bugfountain Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/bugfountain/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="https://bugfountain-tutorial.netlify.app/">Link to tutorial website</a></li>			
 		</ul>
 		</article>
@@ -52,7 +54,7 @@ const posts = [
 			<img alt="Screenshot of bug fountain canvas" src="./bugfountain/bugfountain.jpg">
 			<p>Version 2 of the bug fountain program mentioned in the last post is available on <a href="https://repl.it">replit</a>. This version uses different sized bugs, and each bug moves at a speed relative to its size, with smaller ones moving faster than bigger ones.</p>
 		<ul>
-			<li><a href="https://repl.it/@malvoliothegood/bugfountain-v2#script.js">Link to Bugfountain V2 Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/bugfountain-v2/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./bugfountain/bugfountain.mp4">Short video</a></li>
 		</ul>
 		</article>
@@ -67,7 +69,7 @@ const posts = [
 			<img alt="Screenshot of click the banana game" src="./banana-game/screenshot.png">
 			<p>This game is written using vanilla JavaScript and the HTML5 canvas and some of its methods. Bananas fall from the top of the playing area. Every time the player clicks on one they: get a point, the banana's position is reset to a random x position at the top of the canvas, and its falling speed is increased slightly. Also, after every fifth click a new banana is added to the game.</p><p>The current score is displayed at top left, along with the 'best ever' score. This is stored in the browser's local storage. The player has three lives to start with. The current number is indicated by the number of images of a monkey at the top right of the canvas. As a final touch the standard cursor is replaced by an image of a small monkey (a smaller version of the one used to show lives).</p>
 			<ul>
-			<li><a href="https://repl.it/@malvoliothegood/Click-the-banana-game#index.html">Link to Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/click-the-banana-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./banana-game/banana-game.zip">Zipped up game files (11.3KiB)</a></li>
 		</ul>		
 		</article>
@@ -82,7 +84,7 @@ const posts = [
 			<img alt="Screenshot of Collatz conjecture app" src="./collatz-conjecture/screenshot.png">
 			<p>This is a forked and heavily modified version of an app that help was requested for on Repl.it. It deals with the <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>.</p>
 			<ul>
-			<li><a href="https://repl.it/@malvoliothegood/Collatx-conjucture#index.html">Link to Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/collatx-conjucture/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./collatz-conjecture/collatz-conjecture.zip">Zipped up app files (2.2KiB)</a></li>
 		</ul>		
 		</article>
@@ -96,7 +98,7 @@ const posts = [
 			<article>			
 			<p>This is an improved version of the Collatz conjecture app mentioned in the last post. The output of the number sequence is better formatted (there is a comma and a space between each number) and there is a 100 millisecond delay between each iteration of the sequence generating algorithm. This adds interest. A link to a video of the running app is included below.</p>
 			<ul>
-			<li><a href="https://repl.it/@malvoliothegood/Collatz-conjecture-v2">Link to Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/collatz-conjecture-v2/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./collatz-conjecture/collatz-conjecture-v2.zip">Zipped up app files (2.3KiB)</a></li>
 			<li><a href="./collatz-conjecture/collatz-conjecture.mp4">Short video of the app in action</a></li>
 		</ul>		
@@ -111,7 +113,7 @@ const posts = [
 			<article>			
 			<p>It's amazing how you can think you have ironed out all bugs only to find one hiding in plain sight. This is the case with V2 of the Collatz conjecture app. It accepts negative numbers! Version V2b does not. It also uses a textarea to display the results. As the height and width of the textarea is set no rejigging of the page layout occurs. This looks better.</p>
 			<ul>
-			<li><a href="https://repl.it/@malvoliothegood/Collatz-conjecture-v2b">Link to Repl</a></li>
+			<li><a href="https://happyduckiesdemos.netlify.app/collatz-conjecture-v2b/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./collatz-conjecture/collatz-conjecture-v2b.zip">Zipped up app files (2.3KiB)</a></li>
 			</ul>		
 		</article>
@@ -142,7 +144,7 @@ const posts = [
 			<img alt="Loading images using promises code screenshot" src="./loading-images-using-promises/screenshot.png">
 			<p>Loading a number of images for a web page can be problematic if the image loading has to occur before other code runs. The above JS code shows how it can be done using Promises (Promise and Promise.all). The images will not be added to the page until all images have been fetched. The attached zip file contains the web page and its associated code.</p>
 			<ul>
-      <li><a href="https://loadingimageusingpromises.netlify.app/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
+      <li><a href="https://happyduckiesdemos.netlify.app/loading-images-using-promises/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
 			<li><a href="./loading-images-using-promises/loading-images-using-promises.zip">App code (zip, 1.2KiB)</a></li>
 			</ul>
       

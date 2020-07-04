@@ -158,7 +158,7 @@ const posts = [
 		html: `
 			<article>
       <img alt="screenshot of hangman game in action" src="./snowpack-hangman-game/screenshot.png">			
-      <p>This simple game was built using Svelte the framework and the <a href="https://www.snowpack.dev/">Snowpack build chain tool</a>. Snowpack is unique as it does not bundle on every file change, save and rebuild. This means that the effects of changes are seen very quickly in a running instance of an app. See the quoted text below from the Snowpack homepage for more information.</p>
+      <p>This simple game was built using the Svelte framework and the <a href="https://www.snowpack.dev/">Snowpack build chain tool</a>. Snowpack is unique as it does not bundle on every file change, save and rebuild. This means that the effects of changes are seen very quickly in a running instance of an app. See the quoted text below from the Snowpack homepage for more information.</p>
       <p>To replicate the hangman development project folder and file structure:</p>
       <ol>
       <li>Download the zip file attached to this post</li>
@@ -179,6 +179,33 @@ const posts = [
       <li><a href="https://happyduckiesdemos.netlify.app/hangman-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
 			<li><a href="./snowpack-hangman-game/snowpack-hangman-game.zip">App development project folders and files  (zip, 221KiB)</a></li>
 			</ul>
+      
+		</article>
+			`
+	},
+  {
+		title: "Tic Tac Toe game using Svelte",
+		slug: 'tictactoe-game-using-svelte',
+		date: '2020/07/04',
+		html: `
+			<article>      
+      <img alt="screenshot of tic tac toe game in action" src="./tic-tac-toe/screenshot.png">
+      <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Game in action</p>     
+      <img alt="screenshot of Board.svelte file code" src="./tic-tac-toe/board-code.png">
+      <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Board.svelte code</p>
+      
+      <p>This game was built using the Svelte framework. The main logic in the program is in the Board.svetle file - see above. Note the reactive statements on lines 20 to 29. Anytime the value of a variable within these code blocks changes the code will be reavaluated. The zip file below can be downloaded and the project can be rebuilt by following the steps below - it is assumed that you have got <strong>node/npm</strong> installed.</p>      
+			<ol>
+      <li>Unzip the zip file in an appropriate place in your file system</li>
+      <li>Open a terminal within the project's root folder and run <code>npm install</code> to install dependences
+      <li>Run <code>npm run dev</code> to compile the project code and crank up a web server that listens on <code>localhost:5000</code></li>
+      <li>Open a browser and go to this address</li>
+      <li>Run <code>npm run build</code> to build a website version of the app within the <strong>public</strong> folder. This can be hosted on <a href="https://app.netlify.com" target="_blank" rel="noreferrer nofollow noopener">Netlify</a> for free using <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer nofollow noopener">Netlify Drop</a> 
+			</ol>
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>		
+			<li><a href="./tic-tac-toe/tic-tac-toe.zip">App development project folders and files  (zip, 14.6KiB)</a></li>
+      </ul>     
       
 		</article>
 			`

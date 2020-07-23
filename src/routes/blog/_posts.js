@@ -203,7 +203,7 @@ const posts = [
       <li>Run <code>npm run build</code> to build a website version of the app within the <strong>public</strong> folder. This can be hosted on <a href="https://app.netlify.com" target="_blank" rel="noreferrer nofollow noopener">Netlify</a> for free using <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer nofollow noopener">Netlify Drop</a>
 			</ol>
       <ul>
-      <li><a href="https://happyduckiesdemos.netlify.app/tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+
 			<li><a href="./tic-tac-toe/tic-tac-toe.zip">App development project folders and files  (zip, 14.6KiB)</a></li>
       </ul>
 
@@ -228,6 +228,32 @@ const posts = [
 			<li><a href="https://github.com/peterthompsonnz/svelte-breaking-bad-characters" target="_blank" rel="noreferrer nofollow noopener">Link to GitHub repository</a></li>
       </ul>
 
+		</article>
+			`,
+  },
+  {
+    title: "Tic Tac Toe game using Svelte: version 4",
+    slug: "tictactoe-game-using-svelte-v4",
+    date: "2020/07/23",
+    html: `
+			<article>
+	  <img alt="screenshot of tic tac toby in action" src="./tic-tac-toe-v4/screenshot.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">App in action</p>
+    <img alt="screenshot of script code" src="./tic-tac-toe-v4/script.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>
+    <img alt="screenshot of html code" src="./tic-tac-toe-v4/html.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">HTML code</p>
+    <img alt="screenshot of style code" src="./tic-tac-toe-v4/style.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Style code</p>
+    <p>
+	    This is an improved version of the Tic Tac Toe game mentioned in a previous post. It was made for my grandson Toby, hence the title of the game, "Tic Tac Toby", and the use of a firetruck and a plane emoji in place of the 'X' and 'O' characters. It is version 4 rather than version 2 (of the original game) because I made a few silly mistakes when adding Service Worker support (I forgot to cache the SW files!). I also played around (a lot) with the CSS that sized the emojis, as, although I was applying the same class to them in two places, I could not get them to display at the same size. I finally admitted defeat and overcame the issue by altering the HTML that encompassed the emojis so it was the same. V4 of the game also has a 'New Game' button and it keeps score.
+	  <p>
+	  <p>Here is a link to the first game's post that details how the zip file linked to below can be unpacked and the project rebuilt the: <a href="https://happyduckies.netlify.app/blog/tictactoe-game-using-svelte">Post containing instructions</a>
+	  </p>
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="./tic-tac-toe-v4/tic-tac-toe-v4.zip">App development project folders and files  (zip, 46.2KiB)</li>
+      </ul>
 		</article>
 			`,
   },

@@ -1,7 +1,11 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "my-blog",
+  "description": "My programming blog",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peterthompsonnz/sapper-my-blog.git"
+  },
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",

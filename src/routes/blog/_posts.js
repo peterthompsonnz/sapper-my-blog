@@ -257,6 +257,24 @@ const posts = [
 		</article>
 			`,
   },
+  {
+    title: "Simple Tic Tac Toe game using Svelte",
+    slug: "simple-tictactoe-game-using-svelte",
+    date: "2020/07/24",
+    html: `
+			<article>
+	  <img alt="screenshot of simple tic tac in action" src="./simple-tic-tac-toe/simple-tic-tac-toe.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">App in action</p>   
+    <p>
+	    This is a simple version of Tic Tac Toe. There is no checking for a win, a tie or who's turn it is. Also, images rather than emojis are used.
+	  <p>	  
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/simple-tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="https://svelte.dev/repl/18fff756a9ce445fa72fa1229ec2fcc6?version=3.24.0">Svelte Repl version</li>
+      </ul>
+		</article>
+			`,
+  }
 ];
 
 posts.forEach((post) => {

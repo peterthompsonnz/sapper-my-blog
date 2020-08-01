@@ -284,7 +284,9 @@ const posts = [
 	  <img alt="screenshot of code" src="./palindrome-finder/screenshot.png">
     <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>   
     <p>
-	    This web app finds all the palindromes in the UNIX words.txt file. It is surprising how few there are given that there are 45,000 plus words in the file. The <strong>isPalindrome</strong> function could be used for other purposes, for example a web page that contains a text area in which the user could enter or paste some text that could be tested for palindromes.
+	    This web app finds all the palindromes in the UNIX words.txt file, and it is surprising how few there are given that there are 45,000 plus words in the file. The key piece of code in the <strong>isPalindrome</strong> in the screenshot above is the <strong>while</strong> loop (line 24-26). Starting at the front and back ends of a word, each character is compared until either they don't match or the halfway point is reached. If it is the latter than the word is a palindrome.</p>
+
+	    <p>The <strong>isPalindrome</strong> function could be used for other purposes, for example a web page that contains a text area in which the user enters or pastes some text, then clicks a button to cause the text to be analysed for palindromes.
 	  <p>	  
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/palindrome-finder/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>

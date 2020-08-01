@@ -274,6 +274,25 @@ const posts = [
       </ul>
 		</article>
 			`,
+  },
+   {
+    title: "Palindrome finder",
+    slug: "palindrome-finder",
+    date: "2020/08/02",
+    html: `
+			<article>
+	  <img alt="screenshot of code" src="./palindrome-finder/screenshot.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>   
+    <p>
+	    This web app finds all the palindromes in the UNIX words.txt file. It is surprising how few there are given that there are 45,000 plus words in the file. The <strong>isPalindrome</strong>.
+	  <p>	  
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/palindrome-finder/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="https://repl.it/@malvoliothegood/palindrome-finder#index.html">Repl version</li>
+			<li><a href="./palindrome-finder/palindrome-finder.zip">Code (zip, 150KiB)</li>
+      </ul>
+		</article>
+			`,
   }
 ];
 

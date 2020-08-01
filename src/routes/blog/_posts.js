@@ -284,7 +284,7 @@ const posts = [
 	  <img alt="screenshot of code" src="./palindrome-finder/screenshot.png">
     <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>   
     <p>
-	    This web app finds all the palindromes in the UNIX words.txt file. It is surprising how few there are given that there are 45,000 plus words in the file. The <strong>isPalindrome</strong>.
+	    This web app finds all the palindromes in the UNIX words.txt file. It is surprising how few there are given that there are 45,000 plus words in the file. The <strong>isPalindrome</strong> function could be used for other purposes, for example a web page that contains a text area in which the user could enter or paste some text that could be tested for palindromes.
 	  <p>	  
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/palindrome-finder/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>

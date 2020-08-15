@@ -270,7 +270,7 @@ const posts = [
 	  <p>	  
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/simple-tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
-			<li><a href="https://svelte.dev/repl/18fff756a9ce445fa72fa1229ec2fcc6?version=3.24.0">Svelte Repl version</li>
+			<li><a href="https://svelte.dev/repl/18fff756a9ce445fa72fa1229ec2fcc6?version=3.24.0">Svelte.dev Repl version</li>
       </ul>
 		</article>
 			`,
@@ -290,8 +290,26 @@ const posts = [
 	  <p>	  
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/palindrome-finder/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
-			<li><a href="https://repl.it/@malvoliothegood/palindrome-finder#index.html">Repl version</li>
+			<li><a href="https://repl.it/@malvoliothegood/palindrome-finder#index.html">Repl.it repl</li>
 			<li><a href="./palindrome-finder/palindrome-finder.zip">Code (zip, 150KiB)</li>
+      </ul>
+		</article>
+			`,
+  },
+  {
+    title: "SWAPI Examples",
+    slug: "swapi-examples",
+    date: "2020/08/15",
+    html: `
+			<article>
+	  <img alt="screenshot showing the descriptions of two of the characters" src="./swapi-examples/screenshot.png">
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Descriptions of two characters</p>   
+    <p>
+	    This app fetches data from the people and planets categories of the <strong>SWAPI API</strong>. The appropriate data is displayed when either of the 'people' or 'planets' buttons are clicked. Caching is used by storing fetched data in arrays specific to each category. This allows swapping backwards and forwards between the two categories almost instantaneously as no additional requests to the API are needed. In addition - to speed up response - when a button is moused over the appropriate fetching action is triggered. Lastly, the fetched records are displayed in page lots of 10 (this is the default amount that the API delivers) that are randomly chosen from the total number of records available.</p>	  
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/swapi-examples/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="https://repl.it/@malvoliothegood/swapi-examples#index.html">Repl.it repl</li>
+			<li><a href="./swapi-examples/swapi-examples.zip">Code (zip, 3.1KiB)</li>
       </ul>
 		</article>
 			`,

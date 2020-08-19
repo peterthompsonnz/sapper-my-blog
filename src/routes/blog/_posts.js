@@ -9,7 +9,7 @@ const posts = [
 			<p>If a password is made up of four unrelated words then it is considered to be 'unbreakable' - at the moment anyway. The trick is to remember such a password. So far I have managed a three word password as it is hard to remember words that are unrelated. Here is a link to a zip file that contains a web app that can be used to create a password made up of one to four words.</p>
 			<p><a href="./password-generator/password-generator.zip">Password generator (113KiB)</a></p>
 			</article>
-			`,
+			`
   },
   {
     title: "Password Generator app: version 2",
@@ -25,7 +25,7 @@ const posts = [
       <li><a href="./password-generator/password-generator-v2.zip">Password generator (151KiB)</a></li>
       </ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Bug Fountain Tutorial",
@@ -35,15 +35,13 @@ const posts = [
 			<article>
 			<img alt="Screenshot of bug fountain canvas" src="./bugfountain/bugfountain.jpg">
 			<p>Some time ago I made a tutorial that taught how to create a never-ending, cascading fountain of lady bugs using the HTML/CSS/JS([P5.js library](https://p5js.org/)) combo. The bugs appeared from the bottom of an HTML5 canvas, each having its own horizontal and vertical velocities and angle in the vertical direction. They were affected by gravity so moved in an arc. They always pointed in the direction of travel so turned at the top of the arc. When they reached the bottom of the canvas they repeated their travel. Hence they formed a never-ending cascade.</p>
-
 			<p>I negligently deleted the repl on [replit](https://repl.it) that contained the starter files. Today I fixed this by creating a new repl - see links below:</p>
-
 		<ul>
 			<li><a href="https://happyduckiesdemos.netlify.app/bugfountain/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="https://bugfountain-tutorial.netlify.app/">Link to tutorial website</a></li>
 		</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Bug Fountain: version 2",
@@ -58,7 +56,7 @@ const posts = [
 			<li><a href="./bugfountain/bugfountain.mp4">Short video</a></li>
 		</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Click the banana game",
@@ -73,7 +71,7 @@ const posts = [
 			<li><a href="./banana-game/banana-game.zip">Zipped up game files (11.3KiB)</a></li>
 		</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Collatz conjecture app",
@@ -88,7 +86,7 @@ const posts = [
 			<li><a href="./collatz-conjecture/collatz-conjecture.zip">Zipped up app files (2.2KiB)</a></li>
 		</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Collatz conjecture app: version 2",
@@ -103,7 +101,7 @@ const posts = [
 			<li><a href="./collatz-conjecture/collatz-conjecture.mp4">Short video of the app in action</a></li>
 		</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Collatz conjecture app: version 2b",
@@ -117,7 +115,7 @@ const posts = [
 			<li><a href="./collatz-conjecture/collatz-conjecture-v2b.zip">Zipped up app files (2.3KiB)</a></li>
 			</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "B & C 'Hello Worlds'",
@@ -132,7 +130,7 @@ const posts = [
 			<li><a href="./hello-world/The C Programming Language Ritchie & Kernighan.pdf">The C Programming Language by Kernighan and Richie (PDF, 1.2Mib)</a></li>
 			</ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Loading images using promises",
@@ -147,9 +145,8 @@ const posts = [
       <li><a href="https://happyduckiesdemos.netlify.app/loading-images-using-promises/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./loading-images-using-promises/loading-images-using-promises.zip">App code (zip, 1.2KiB)</a></li>
 			</ul>
-
 		</article>
-			`,
+			`
   },
   {
     title: "Hangman animal game using Snowpack",
@@ -179,9 +176,8 @@ const posts = [
       <li><a href="https://happyduckiesdemos.netlify.app/hangman-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./snowpack-hangman-game/snowpack-hangman-game.zip">App development project folders and files  (zip, 221KiB)</a></li>
 			</ul>
-
 		</article>
-			`,
+			`
   },
   {
     title: "Tic Tac Toe game using Svelte",
@@ -193,7 +189,6 @@ const posts = [
       <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Game in action</p>
       <img alt="screenshot of Board.svelte file code" src="./tic-tac-toe/board-code.png">
       <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Board.svelte code</p>
-
       <p>This game was built using the Svelte framework. The main logic in the program is in the Board.svetle file - see above. Note the reactive statements on lines 20 to 29. Anytime the value of a variable within these code blocks changes the code will be reavaluated. The zip file below can be downloaded and the project can be rebuilt by following the steps below - it is assumed that you have got <strong>node/npm</strong> installed.</p>
 			<ol>
       <li>Unzip the zip file in an appropriate place in your file system</li>
@@ -203,12 +198,10 @@ const posts = [
       <li>Run <code>npm run build</code> to build a website version of the app within the <strong>public</strong> folder. This can be hosted on <a href="https://app.netlify.com" target="_blank" rel="noreferrer nofollow noopener">Netlify</a> for free using <a href="https://app.netlify.com/drop" target="_blank" rel="noreferrer nofollow noopener">Netlify Drop</a>
 			</ol>
       <ul>
-
 			<li><a href="./tic-tac-toe/tic-tac-toe.zip">App development project folders and files  (zip, 14.6KiB)</a></li>
       </ul>
-
 		</article>
-			`,
+			`
   },
   {
     title: "Breaking Bad Characters using Svelte",
@@ -219,7 +212,6 @@ const posts = [
 	  <img alt="screenshot of breaking in action" src="./breaking-bad-characters/screenshot.jpg">
 	  <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">App in action</p>
 	  <p><a href="https://www.youtube.com/watch?v=YaioUnMw0mo" target="_blank" rel="noreferrer nofollow noopener">Brad's video tutorial</a></p>
-
 	  <p>Recently <strong>Brad Traversy</strong> made a video on his YouTube chanel that showed how to make an app using React that would display images of the characters in the Breaking Bad TV series. There was a search box that could be used to filter results on the characters names. Also there was a cool card flip effect on mouse over that would turn an image 180 degrees so the back came into view, displaying information on the character. I built the app using React as per instructions in the video and then built it in Svelte. Both builds went smoothly except for the filter/search feature where I had to use <code>on:input</code> rather than <code>on:change</code> for the event listener on the text <code>input</code> control as <code>on:change</code> would only fire on an <code>onblur</code> event i.e. when attention left the text control. Look in the <code>Search.svelte</code> file in the repo to see this. According to MDN this behaviour is a feature of text boxes.
 	  </p>
 	  <p>There is a link below to a GitHub repository that can be cloned. There is also a link to a demo app</p>
@@ -229,7 +221,7 @@ const posts = [
       </ul>
 
 		</article>
-			`,
+			`
   },
   {
     title: "Tic Tac Toe game using Svelte: version 4",
@@ -247,7 +239,7 @@ const posts = [
     <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Style code</p>
     <p>
 	    This is an improved version of the Tic Tac Toe game mentioned in a previous post. It was made for my grandson Toby, hence the title of the game, "Tic Tac Toby", and the use of a firetruck and a plane emoji in place of the 'X' and 'O' characters. It is version 4 rather than version 2 (of the original game) because I made a few silly mistakes when adding Service Worker support (I forgot to cache the SW files!). I also played around (a lot) with the CSS that sized the emojis, as, although I was applying the same class to them in two places, I could not get them to display at the same size. I finally admitted defeat and overcame the issue by altering the HTML that encompassed the emojis so it was the same. V4 of the game also has a 'New Game' button and it keeps score.
-	  <p>
+	  </p>
 	  <p>Here is a link to the first game's post that details how the zip file linked to below can be unpacked and the project rebuilt the: <a href="https://happyduckies.netlify.app/blog/tictactoe-game-using-svelte">Post containing instructions</a>
 	  </p>
       <ul>
@@ -255,7 +247,7 @@ const posts = [
 			<li><a href="./tic-tac-toe-v4/tic-tac-toe-v4.zip">App development project folders and files  (zip, 46.2KiB)</li>
       </ul>
 		</article>
-			`,
+			`
   },
   {
     title: "Simple Tic Tac Toe game using Svelte",
@@ -264,37 +256,35 @@ const posts = [
     html: `
 			<article>
 	  <img alt="screenshot of simple tic tac in action" src="./simple-tic-tac-toe/simple-tic-tac-toe.png">
-    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">App in action</p>   
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">App in action</p>
     <p>
 	    This is a simple version of Tic Tac Toe. There is no checking for a win, a tie or who's turn it is. Also, images rather than emojis are used.
-	  <p>	  
+	  </p>
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/simple-tic-tac-toe/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="https://svelte.dev/repl/18fff756a9ce445fa72fa1229ec2fcc6?version=3.24.0">Svelte.dev Repl version</li>
       </ul>
 		</article>
-			`,
+			`
   },
-   {
+  {
     title: "Palindrome finder",
     slug: "palindrome-finder",
     date: "2020/08/02",
     html: `
 			<article>
 	  <img alt="screenshot of code" src="./palindrome-finder/screenshot.png">
-    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>   
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">JS code</p>
     <p>
 	    This web app finds all the palindromes in the UNIX words.txt file, and it is surprising how few there are given that there are 45,000 plus words in the file. The key piece of code in the <strong>isPalindrome</strong> in the screenshot above is the <strong>while</strong> loop (line 24-26). Starting at the front and back ends of a word, each character is compared until either they don't match or the halfway point is reached. If it is the latter than the word is a palindrome.</p>
-
-	    <p>The <strong>isPalindrome</strong> function could be used for other purposes, for example a web page that contains a text area in which the user enters or pastes some text, then clicks a button to cause the text to be analysed for palindromes.
-	  <p>	  
+	    <p>The <strong>isPalindrome</strong> function could be used for other purposes, for example a web page that contains a text area in which the user enters or pastes some text, then clicks a button to cause the text to be analysed for palindromes.</p>
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/palindrome-finder/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="https://repl.it/@malvoliothegood/palindrome-finder#index.html">Repl.it repl</li>
 			<li><a href="./palindrome-finder/palindrome-finder.zip">Code (zip, 150KiB)</li>
       </ul>
 		</article>
-			`,
+			`
   },
   {
     title: "SWAPI Examples",
@@ -303,16 +293,40 @@ const posts = [
     html: `
 			<article>
 	  <img alt="screenshot showing the descriptions of two of the characters" src="./swapi-examples/screenshot.png">
-    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Descriptions of two characters</p>   
+    <p style="font-size: 1.15em;font-weight: 600;margin-top: -1em;margin-bottom: 1.5em;">Descriptions of two characters</p>
     <p>
-	    This app fetches data from the people and planets categories of the <strong>SWAPI API</strong>. The appropriate data is displayed when either of the 'people' or 'planets' buttons are clicked. Caching is used by storing fetched data in arrays specific to each category. This allows swapping backwards and forwards between the two categories almost instantaneously as no additional requests to the API are needed. In addition - to speed up response - when a button is moused over the appropriate fetching action is triggered. Lastly, the fetched records are displayed in page lots of 10 (this is the default amount that the API delivers) that are randomly chosen from the total number of records available.</p>	  
+	    This app fetches data from the people and planets categories of the <strong>SWAPI API</strong>. The appropriate data is displayed when either of the 'people' or 'planets' buttons are clicked. Caching is used by storing fetched data in arrays specific to each category. This allows swapping backwards and forwards between the two categories almost instantaneously as no additional requests to the API are needed. In addition - to speed up response - when a button is moused over the appropriate fetching action is triggered. Lastly, the fetched records are displayed in page lots of 10 (this is the default amount that the API delivers) that are randomly chosen from the total number of records available.</p>
       <ul>
       <li><a href="https://happyduckiesdemos.netlify.app/swapi-examples/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="https://repl.it/@malvoliothegood/swapi-examples#index.html">Repl.it repl</li>
 			<li><a href="./swapi-examples/swapi-examples.zip">Code (zip, 3.1KiB)</li>
       </ul>
 		</article>
-			`,
+			`
+  },
+  {
+    title: "SWAPI People Example",
+    slug: "swapi-people-example",
+    date: "2020/08/19",
+    html: `
+    <article>
+    <p>
+	    This app is another example of using data from the Star Wars API. It fetches data on film characters/people in page lots. There are 10 per page except on the last page. There are 'Next' and 'Previous' buttons that enable navigation. When there is no next or previous page the appropriate button is disabled. There is further explaination accompanying the screenshots below.</p>
+	  <img alt="Part of the JSON returned by the first page query." src="./swapi-people/people-list.png">
+    <p style="margin: -1em 0 1.5em 0;">Part of the JSON returned by the first page query. Note the <strong>next</strong> and <strong>previous</strong> fields. The previous has a value of <strong>null</strong> indicating that there is no previous page available.</p>
+    <img alt="Screenshot of the App component code" src="./swapi-people/app.png">
+    <p style="margin: -1em 0 1.5em 0;">Note the code that handles the custom message passed back by the <strong>People</strong> component. This controls the disabling and enabling of the Next and Previous buttons. Also note the inline arrow functions used for the button click event.</p>
+    <img alt="Screenshot of the People component code" src="./swapi-people/people.png">
+    <p style="margin: -1em 0 1.5em 0;">Note the code that handles the dispatching of the custom message when a page of data is fetched from the API. Also of interest is how the Promise returned by the call to the <strong>fetch</strong> function is handled by a) ensuring interactivity/update by assigning the <strong>getPeople</strong> function to the <strong>people</strong> reactive variable; b) use of the <strong>await/then</strong> promise handling construct.</p>
+    <img alt="Screenshot of the Person component code" src="./swapi-people/person.png">
+    <p style="margin: -1em 0 1.5em 0;">Basic error checking is used in the above code in case valid values are not present in the data passed into the Person component.</p>
+      <ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/swapi-people/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="https://svelte.dev/repl/f92bb4423ea74890b09cb023e0f7e6e6?version=3.24.1">svelte.dev/repl repl</li>
+			<li><a href="./swapi-people/swapi-people.zip">Code (zip, 3.1KiB)</li>
+      </ul>
+		</article>
+			`
   }
 ];
 

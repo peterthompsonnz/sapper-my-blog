@@ -149,7 +149,7 @@ const posts = [
 			`
   },
   {
-    title: "Hangman animal game using Snowpack",
+    title: "Animal name (hangman) guessing game using Snowpack",
     slug: "hangman-game-using-snowpack",
     date: "2020/07/02",
     html: `
@@ -173,7 +173,7 @@ const posts = [
       <p>Snowpack solves this problem by serving your application unbundled in development. Any time you change a file, Snowpack never rebuilds more than a single file. There’s no bundling to speak of, just a few milliseconds of single-file rebuilding and then an instant update in the browser via HMR. We call this new approach O(1) Build Tooling. </p>
       </blockquote>
 			<ul>
-      <li><a href="https://happyduckiesdemos.netlify.app/hangman-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+      <li><a href="https://happyduckiesdemos.netlify.app/snowpack-hangman-game/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
 			<li><a href="./snowpack-hangman-game/snowpack-hangman-game.zip">App development project folders and files  (zip, 221KiB)</a></li>
 			</ul>
 		</article>
@@ -325,6 +325,31 @@ const posts = [
 			<li><a href="https://svelte.dev/repl/f92bb4423ea74890b09cb023e0f7e6e6?version=3.24.1">svelte.dev/repl repl</li>
 			<li><a href="./swapi-people/swapi-people.zip">Code (zip, 3.1KiB)</li>
       </ul>
+		</article>
+			`
+  },
+  {
+    title: "Animal name (hangman) guessing game using Snowpack: version 2",
+    slug: "hangman-game-using-snowpack-v2",
+    date: "2020/08/21",
+    html: `
+			<article>
+      <img alt="screenshot of hangman game in action" src="./snowpack-hangman-game-v2/screenshot.png">
+      <p>This is version 2 of the Hangman animal name guessing game mentioned in a previous post. A text box has been added to allow the game player to make a guess at the name. If the guess is wrong 5 goes is subtracted from the number of goes left in the game. To replicate the hangman development project folder and file structure:</p>
+      <ol>
+      <li>Download the zip file attached to this post</li>
+      <li>Unzip it in an appropriate place in your system's file structure</li>
+      <li>Open a terminal within the root level of the project's file structure</li>
+      <li>Install dependencies by running <code>npm install</code> in the terminal</li>
+      <li>Then run <code>npm run start</code> to start the app</li>
+      <li>A webserver will start automatically and the default browser will start and load the app's main page at <code>localhost:8080</code></li>
+      <li>Edit the <strong>Svelte</strong> files as you see fit. Hot reloading will keep the running app up to date</li>
+      <li>To build the app run <code>npm run build</code>. The built files will be in the <code>build</code> folder</li>
+      </ol>      
+			<ul>
+      <li><a href="https://happyduckiesdemos.netlify.app/snowpack-hangman-game-v2/" target="_blank" rel="noreferrer nofollow noopener">Demo</a></li>
+			<li><a href="./snowpack-hangman-game-v2/snowpack-hangman-game-v2.zip">App development project folders and files  (zip, 123KiB)</a></li>
+			</ul>
 		</article>
 			`
   }

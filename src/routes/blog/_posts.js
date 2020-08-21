@@ -149,8 +149,8 @@ const posts = [
 			`
   },
   {
-    title: "Animal name (hangman) guessing game using Snowpack",
-    slug: "hangman-game-using-snowpack",
+    title: "Animal name guessing game using Snowpack",
+    slug: "animal-name-guessing-game-snowpack",
     date: "2020/07/02",
     html: `
 			<article>
@@ -329,8 +329,8 @@ const posts = [
 			`
   },
   {
-    title: "Animal name (hangman) guessing game using Snowpack: version 2",
-    slug: "hangman-game-using-snowpack-v2",
+    title: "Animal name guessing game using Snowpack: version 2",
+    slug: "animal-name-guessing-game-snowpack-v2",
     date: "2020/08/21",
     html: `
 			<article>
